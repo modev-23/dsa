@@ -7,8 +7,9 @@ import (
 )
 
 func main() {
-	salary := []int{100, 200, 600, 400, 500}
-	r := problems.Average(salary)
+	w1, w2 := "hello", "world1"
 
-	fmt.Println(float64(r))
+	result := problems.MergeAlternately(w1, w2)
+
+	fmt.Print(result)
 }
